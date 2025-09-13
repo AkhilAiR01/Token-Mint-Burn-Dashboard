@@ -1,0 +1,15 @@
+[package]
+name = "Token-Mint/Burn-Dashboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x46d3bd84cd2ad570efc6a96deade117fc9b0a8f73d3dc63f223099f5fe3a1472"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
